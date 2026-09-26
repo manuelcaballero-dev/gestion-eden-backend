@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/clientes")
+@CrossOrigin(origins = "http://localhost:5173")
 public class ClienteController {
 
     private final ClienteService clienteService;
